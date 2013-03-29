@@ -4,5 +4,6 @@
     <string name="app_name">WebTool</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="buttonLaunchConvertToEm">Convert to Em</string>
 
 </resources>
