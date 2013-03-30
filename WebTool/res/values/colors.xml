@@ -9,7 +9,7 @@
     <color name="editTextStroke">#0f257b</color>
     
     <!-- Colors for TextViews -->
-    <color name="text_view">#a0a0a0</color>
+    <color name="text_view">#ffffff</color>
     
     <!-- Colors for Buttons -->
     <color name="buttonGradientStartColor">#4967d5</color>
