@@ -1,0 +1,18 @@
+<resources>
+    <!-- Colors for Activities  -->
+    <color name="activityGradientStartColor">#99a7de</color>
+    <color name="activityGradientEndColor">#3055de</color>
+    
+    <!-- Colors for EditText -->
+    <color name="editTextGradientStartColor">#ffffff</color>
+    <color name="editTextGradientEndColor">#c2c8de</color>
+    <color name="editTextStroke">#0f257b</color>
+    
+    <!-- Colors for TextViews -->
+    <color name="text_view">#a0a0a0</color>
+    
+    <!-- Colors for Buttons -->
+    <color name="buttonGradientStartColor">#4967d5</color>
+    <color name="buttonGradientEndColor">#7e90d5</color>
+    <color name="buttonText">#ffffff</color>
+</resources>
