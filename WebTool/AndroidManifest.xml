@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="za.co.jlweb.webtool.ConvertToEmActivity"
+            android:label="@string/title_activity_convert_to_em"
+            android:parentActivityName="za.co.jlweb.webtool.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="za.co.jlweb.webtool.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

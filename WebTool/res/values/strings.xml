@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">WebTool</string>
+    <string name="app_name">Web Tool</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    
     <string name="buttonLaunchConvertToEm">Convert to Em</string>
+    <string name="title_activity_convert_to_em">Convert pixels to Em</string>
+    
+    <!-- Convert to Em Activity -->
+    <string name="hint_font_size_in_px">Font size in pixels</string>
+    <string name="button_convert_to_em">Convert</string>
 
 </resources>
