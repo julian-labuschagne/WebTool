@@ -3,20 +3,29 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal" >
+    android:orientation="vertical" >
     
     <EditText 
         android:id="@+id/fontSize"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_font_size_in_px"
-        android:layout_weight="1"
         android:inputType="number" />
     
     <Button 
         android:text="@string/button_convert_to_em" 
-        android:layout_width="wrap_content" 
+        android:layout_width="match_parent" 
         android:layout_height="wrap_content"
         android:onClick="convertPxToEm" />
     
+    <TextView 
+        android:id="@+id/text_convert_em_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:text="@string/text_convert_to_em_result" />
+    
 </LinearLayout>
+

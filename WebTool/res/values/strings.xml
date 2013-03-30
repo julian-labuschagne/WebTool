@@ -10,5 +10,6 @@
     <!-- Convert to Em Activity -->
     <string name="hint_font_size_in_px">Font size in pixels</string>
     <string name="button_convert_to_em">Convert</string>
+    <string name="text_convert_to_em_result">Result</string>
 
 </resources>

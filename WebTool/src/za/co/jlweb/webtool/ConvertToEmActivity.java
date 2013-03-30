@@ -5,14 +5,15 @@ import android.app.Activity;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
+import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class ConvertToEmActivity extends Activity {
-	private EditText fontSize;
 	float sizeInPx;
 	float sizeInEm;
 	
@@ -64,13 +65,16 @@ public class ConvertToEmActivity extends Activity {
 	 */
 	public void convertPxToEm(View view) {
 		EditText fontSize = (EditText) findViewById(R.id.fontSize);
+		TextView textConvertToEmResult = (TextView) findViewById(R.id.text_convert_em_result);
 		if (fontSize.getText().length() == 0) {
 			Toast.makeText(this, "You need to provide a font size in pixels", Toast.LENGTH_LONG).show();
 		} else {
 			sizeInPx = Float.parseFloat(fontSize.getText().toString());
 			sizeInEm = sizeInPx / 16;
-			String toastMessage = Float.toString(sizeInEm);
-			Toast.makeText(this, toastMessage, Toast.LENGTH_LONG).show();
+			String result = Float.toString(sizeInEm);
+			textConvertToEmResult.setTextSize(TypedValue.COMPLEX_UNIT_SP, sizeInPx);
+			textConvertToEmResult.setText(result + "em");
+			Toast.makeText(this, result + "em", Toast.LENGTH_LONG).show();
 		}
 	}
 
