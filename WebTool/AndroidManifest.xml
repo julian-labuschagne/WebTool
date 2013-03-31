@@ -30,6 +30,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="za.co.jlweb.webtool.MainActivity" />
         </activity>
+        <activity
+            android:name="za.co.jlweb.webtool.CalculatePercentageActivity"
+            android:label="@string/title_activity_calculate_percentage"
+            android:parentActivityName="za.co.jlweb.webtool.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="za.co.jlweb.webtool.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

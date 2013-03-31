@@ -3,13 +3,23 @@
 
     <string name="app_name">Web Tool</string>
     <string name="action_settings">Settings</string>
-    
+
+    <!-- Main Activity -->
     <string name="buttonLaunchConvertToEm">Convert to Em</string>
-    <string name="title_activity_convert_to_em">Convert pixels to Em</string>
-    
+    <string name="buttonLaunchCalculatePercentage">Calculate Percentage</string>
+
     <!-- Convert to Em Activity -->
+    <string name="title_activity_convert_to_em">Convert pixels to Em</string>
     <string name="hint_font_size_in_px">Font size in pixels</string>
     <string name="button_convert_to_em">Convert</string>
     <string name="text_convert_to_em_result">Result</string>
+    
+    <!-- Calculate Percentage Activity -->
+    <string name="title_activity_calculate_percentage">Calculate Percentage</string>
+    <string name="hint_calculate_percentage_parent_width">The parent\'s width in pixels</string>
+    <string name="hint_calculate_percentage_element_width">The element\'s width in pixels</string>
+    <string name="button_calculate_percentage">Calculate</string>
+    <string name="text_calculate_percentage_result">Result</string>
+    
 
 </resources>

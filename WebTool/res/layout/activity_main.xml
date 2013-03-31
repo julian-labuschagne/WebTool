@@ -13,4 +13,12 @@
         android:onClick="launchConvertToEmActivity"
         style="@style/Button" />
     
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/buttonLaunchCalculatePercentage"
+        android:onClick="launchCalculatePercentageActivity"
+        style="@style/Button" />
+    
 </LinearLayout>

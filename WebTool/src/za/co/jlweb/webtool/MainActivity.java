@@ -30,4 +30,12 @@ public class MainActivity extends Activity {
     	startActivity(launchEmConverter);
     }
     
+    /**
+     * When the button to Calculate Percentage is clicked
+     */
+    public void launchCalculatePercentageActivity(View view) {
+    	Intent launchCalculatePercentage = new Intent(this, CalculatePercentageActivity.class);
+    	startActivity(launchCalculatePercentage);
+    }
+    
 }
